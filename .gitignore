@@ -1,3 +1,6 @@
+# Exceptions
+!Architecture.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -172,3 +175,70 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Image data
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.webp
+*.svg
+*.raw
+*.heic
+*.heif
+
+# Dataset directories
+raw_data/
+processed_data/
+
+# Model checkpoints and weights
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+*.weights
+*.bin
+checkpoints/
+weights/
+
+*.json
+
+# Log files
+logs/
+*.log
+tensorboard/
+wandb/
+mlruns/
+
+notes.md
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Temporary files
+tmp/
+temp/
+.temp/
+.tmp/
+
+model.onnx
+
+outputs/*
