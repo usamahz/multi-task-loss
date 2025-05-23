@@ -42,7 +42,7 @@ A production-ready, scalable multi-task perception system for autonomous vehicle
 The model uses uncertainty weighting to automatically balance the losses from different tasks. For each task $t$, the loss is weighted by the inverse of the task's uncertainty $\sigma_t$:
 
 $$
-\mathcal{L}_t = \sum_{t=1}^{T} \frac{1}{\sigma_t^2} \mathcal{L}_t + \log \sigma_t
+\mathcal{L}_t = \sum_{i=1}^{T} \frac{1}{\sigma_i^2} \mathcal{L}_i + \log \sigma_i
 $$
 
 where:
