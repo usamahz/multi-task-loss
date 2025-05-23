@@ -2,6 +2,8 @@
 
 A production-ready, scalable multi-task perception system for autonomous vehicles, capable of handling semantic segmentation, object detection, classification, and depth estimation tasks simultaneously.
 
+![System Architecture](Architecture.png)
+
 ## Features
 
 - **Multi-Task Learning**: Jointly train multiple perception tasks with uncertainty weighting

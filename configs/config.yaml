@@ -31,7 +31,7 @@ model:
 # Training Configuration
 training:
   batch_size: 16
-  epochs: 1
+  epochs: 100
   optimizer:
     name: "adamw"
     lr: 0.0001
