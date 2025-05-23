@@ -90,7 +90,7 @@ data/
 
 - **Latency**: < 100ms on target hardware
 - **Accuracy**: State-of-the-art on all tasks
-- **Scalability**: Designed for 5M+ vehicles
+- **Scalability**: Designed for scaling!
 
 ## Contributing
 
