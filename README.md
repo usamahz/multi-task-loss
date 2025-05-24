@@ -7,7 +7,7 @@ A production-ready, scalable multi-task perception system for autonomous vehicle
 ## Features
 
 - **Multi-Task Learning**: Jointly train multiple perception tasks with uncertainty weighting
-- **Scalable Architecture**: Designed for deployment on 5M+ vehicles worldwide
+- **Scalable Architecture**: Designed for deployment on vehicles
 - **Production-Ready**: Includes distributed training, experiment tracking, and model export
 - **Safety-First**: Comprehensive validation and testing framework
 - **Real-Time Performance**: Optimized for edge deployment on automotive hardware
